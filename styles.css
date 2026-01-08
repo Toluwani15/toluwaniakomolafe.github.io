@@ -58,6 +58,7 @@ h1 {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  color: #27091d;   
 }
 
 .button-link {

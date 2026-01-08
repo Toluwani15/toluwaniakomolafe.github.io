@@ -53,10 +53,18 @@ h1 {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
+/* FIXED BUTTON STYLES */
 .button-link {
-  background-color: #f2dce6; 
-  color: #000000;
+  background-color: #f2dce6;
+  color: #000000; /* Correct property */
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 .button-link:hover {
   background-color: #f8c8dc;
   color: #27091d;

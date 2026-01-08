@@ -42,6 +42,25 @@
     .card h3 {
       color: #faeef3;
     }
+    .button-links {
+      margin-top: 1rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .button-link {
+      background-color: #faeef3;
+      color: #551c43;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .button-link:hover {
+      background-color: #f8c8dc;
+      color: #27091d;
+    }
   </style>
 </head>
 
@@ -58,8 +77,11 @@
       <p>
         Conducted and analyzed a comprehensive user research study of Slime Game as part of a semester-long project. Designed and ran 15 structured playtesting sessions, collecting both observational and interview data to evaluate player behavior, frustration points, and satisfaction. Applied mixed-methods analysis, combining descriptive statistics with qualitative coding, to identify patterns in difficulty curves, confusing mechanics, and player engagement. Produced a 15-page professional report for the game’s developer that presented findings and actionable recommendations to improve onboarding, balance, and overall user experience.
       </p>
-      <a href="#">Final Playtest Report</a>
-      <a href="#">Analysis Raw Data</a>
+      <div class="button-links">
+        <a href="#" class="button-link">Final Playtest Report</a>
+        <a href="#" class="button-link">Analysis Raw Data</a>
+      </div>
+
     </div>
   </section>
 </body>

@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   background: #27091d;
-  color: #ffffff; /* Brighter text for better contrast */
+  color: #ffffff;
 }
 
 header {
@@ -17,7 +17,7 @@ h1 {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
   padding: 2rem;
 }
@@ -29,9 +29,10 @@ h1 {
 }
 
 .card h3 {
+  color: #faeef3;
   font-size: 1.25rem;
   font-weight: bold;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 .card p {
@@ -41,17 +42,27 @@ h1 {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
+.card a,
+.card a:visited {
+  color: #faeef3;
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: #f8c8dc;
+  text-decoration: underline;
+}
+
 .button-links {
   margin-top: 1rem;
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  color: #27091d !important;   
 }
 
-.button-link {
-  background-color: #faeef3;       /* Light pink background */
-  color: #27091d !important;                  /* Deep purple text */
+.card a.button-link {
+  background-color: #faeef3;
+  color: #27091d !important;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   font-weight: bold;
@@ -60,7 +71,7 @@ h1 {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.button-link:hover {
-  background-color: #f8c8dc;       /* Slightly brighter pink on hover */
-  color: #27091d !important;                  /* Keep purple text on hover */
+.card a.button-link:hover {
+  background-color: #f8c8dc;
+  color: #27091d !important;
 }

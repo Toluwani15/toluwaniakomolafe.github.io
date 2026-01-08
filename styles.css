@@ -28,17 +28,6 @@ h1 {
   padding: 1rem;
 }
 
-.card a,
-.card a:visited {
-  color: #faeef3;
-  text-decoration: none;
-}
-
-.card a:hover {
-  color: #f8c8dc;
-  text-decoration: underline;
-}
-
 .card h3 {
   color: #faeef3;
   font-size: 1.25rem;

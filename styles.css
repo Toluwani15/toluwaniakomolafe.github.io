@@ -55,7 +55,7 @@ h1 {
 
 .button-link {
   background-color: #332028;   
-  color: #000000;                  
+  color: #27091d;                  
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   font-weight: bold;
@@ -66,4 +66,5 @@ h1 {
 
 .button-link:hover {
   background-color: #332028;       
-  color: #000000;                 
+  color: #27091d;    
+}

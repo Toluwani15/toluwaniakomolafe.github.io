@@ -59,6 +59,14 @@ h1 {
   text-decoration: underline;
 }
 
+.card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
 .button-links {
   margin-top: 1rem;
   display: flex;
